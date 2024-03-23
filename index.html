@@ -4,14 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <style>
- 
-        
-        #d_Top {
-            width: 1280px;
-            height: 80px;
-            border: 1px solid black;
-        }
         #d_Left{
             width: 254px;
             height: 640px;
@@ -20,7 +14,7 @@
         }
         #d_Right{
             width: 1024px;  height: 640px;
-          float: left;
+          
             border: 1px solid black;
         }
         .student{
@@ -31,12 +25,12 @@
         }
         #student_id{
             color: black;
-            font-size: 20px;
+            font-size: 40px;
             font-family: 'Arial';
         }
         #student_name{
             color: black;
-            font-size: 20px;
+            font-size: 40px;
             font-family: 'Arial';
         }
         .button {
@@ -66,7 +60,7 @@
 <body>
     <div id="fullscreen">
         
-        <div id="d_Top">
+        <div id="d_Top" class="profile">
             <div class="student">
             <div id="student_id">
             학번:202034015
@@ -80,9 +74,9 @@
        
        
         <div id="d_Left">
-            <div class="button">
-                <button id="button1">버튼1</button>
-                <button id="button2">버튼2</button>
+            <div class="button" class="buttonui">
+                <button id="button1" class="buttonui">버튼1</button>
+                <button id="button2" class="buttonui">버튼2</button>
                 <script>
                      document.getElementById('button1').addEventListener('click', function() {
                         const container = document.getElementById('d_Right');
