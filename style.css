@@ -1,0 +1,29 @@
+.profile
+{
+    width: 1280px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Arial';
+}
+
+.buttonui
+{
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 8px;
+    padding: 8px;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: 'Arial';      
+}
+
+.d_Right
+{
+    color: black;
+    font-size: 20px;
+    font-family: 'Arial';
+    background-color: white;
+}
